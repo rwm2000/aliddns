@@ -211,10 +211,10 @@ function updatedomain($domain = '', $subdomain = '')
         $params['Value'] = $newip;
         $res = changeRecord($params);
         if ($res === true) {
-            echo "更新IP成功";
+            echo "更新IP成功,当前域名：".$record['RR'].".".$record['DomainName']." IP：".$newip;
         }
     } else {
-        echo "无需更新IP";
+        echo "无需更新IP,当前域名：".$record['RR'].".".$record['DomainName']." IP：".$record['Value'];
     }
 
 }
