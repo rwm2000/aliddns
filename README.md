@@ -1,7 +1,6 @@
 # aliddns
 #$accessKeyId = "";
- 
-# $accessKeySecret = "";
+#$accessKeySecret = "";
  
 #请替换自己阿里云的ID和secret
 
