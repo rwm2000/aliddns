@@ -1,11 +1,10 @@
 # aliddns
-###$accessKeyId = "";
+#$accessKeyId = "";
  
-### $accessKeySecret = "";
+# $accessKeySecret = "";
  
-###请替换自己阿里云的ID和secret
+#请替换自己阿里云的ID和secret
 
-###updatedomain('domain.com', 'subdomain');
+#updatedomain('domain.com', 'subdomain');
 
-###主域名和二级域名
-###其他不多说了
+#主域名和二级域名 其他不多说了
