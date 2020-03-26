@@ -12,7 +12,7 @@ $accessKeySecret = "";
 参数 $subdomain   二级域名
 updatedomain($domain, $subdomain);
 
-### 3.宝塔截图
+### 4.宝塔截图
 
 ![截图](aliddns3.png)
 ![截图](aliddns2.png)
