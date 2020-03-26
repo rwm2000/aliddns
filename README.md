@@ -1,12 +1,19 @@
-# aliddns
-#$accessKeyId = "";
-#$accessKeySecret = "";
- 
-#请替换自己阿里云的ID和secret
+# ALIDDNS & PHP 
 
-#updatedomain('domain.com', 'subdomain');
+### 1.申请阿里云AccessKey
+从[https://ak-console.aliyun.com/#/accesskey](https://ak-console.aliyun.com/#/accesskey) 申请即可，\<key>参数对应AccessKeyId，\<secret>对应AccessKeySecret
+### 2.使用方法
+$accessKeyId = "";
+$accessKeySecret = "";
+请替换自己阿里云的ID和secret
 
-#主域名和二级域名 其他不多说了
+### 3.说明
+参数 $domain  主域名
+参数 $subdomain   二级域名
+updatedomain($domain, $subdomain);
+
+### 3.宝塔截图
+
 ![截图](aliddns3.png)
 ![截图](aliddns2.png)
 ![截图](aliddns1.png)
